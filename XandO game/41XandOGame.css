@@ -1,0 +1,71 @@
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+
+}
+body{
+    margin:0
+}
+.maincontent{
+    width: 400px;
+    height: 400px;
+    background-color: gray;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.x{
+    width: 31%;
+    height: 31%;
+    background-color: rgb(222, 209, 209);
+    font-size: 45px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+
+}
+.x:hover{
+    cursor: pointer;
+    background-color:rgb(195, 171, 171)
+}
+.aside1{
+    width: 100%;
+    margin-top:30px;
+    display: flex;
+    justify-content: center
+}
+.reset{
+    width: 150px;
+    height: 55px;
+    background-color:greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid green;
+    border-radius: 4px;
+}
+.reset p {
+    color:rgb(206, 191, 191);
+    font-size:20px;
+}
+.reset:hover{
+    cursor:pointer;
+    background-color: rgb(132, 190, 44)
+}
+.aside2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aside2P{
+    font-size:  20px;
+    color: rgb(40, 169, 66);
+}
+
+
